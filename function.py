@@ -783,7 +783,7 @@ windnd.hook_dropfiles(lde,func = dragged_files)
 # using theme
 lde.tk.call('source', 'resource\\themes\\themes.tcl')
 lde.tk.call('set_theme', cfg["theme"].lower())
-ntkutils.blur_window_background(lde, dark=False)
+
 #lde.tk.call('set_theme', 'light')
 
 ctypes.windll.shcore.SetProcessDpiAwareness(1)
@@ -791,8 +791,13 @@ ScaleFactor = ctypes.windll.shcore.GetScaleFactorForDevice(0)
 lde.tk.call("tk", "scaling", ScaleFactor/75)
 lde.attributes('-alpha',0.9875)
 
-if cfg["theme"] == "Dark" or (cfg["theme"] == "Dark"): 
+if cfg["theme"] == "Dark": 
 	ntkutils.dark_title_bar(lde)
+
+if cfg["mica"] == "ture": 
+	if cfg["theme"] == "Dark":
+		flag = True
+	ntkutils.blur_window_background(lde, dark=flag)
 
 width = 1074
 height = 580
