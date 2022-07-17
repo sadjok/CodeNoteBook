@@ -1,0 +1,7 @@
+This is a changed Pillow lib and delete useless .py and .dll and .pyd file
+Changed work by sadjok
+Python version must be 3.9.9 or below or it will show error : 
+#:\#######\#######\:
+from . import _image as Image
+...
+[WinError] Cannot Load DLL 

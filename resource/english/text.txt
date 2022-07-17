@@ -1,0 +1,46 @@
+versions:3.2.0
+author:sadjok
+Author:author
+newfile:New File
+open:Open
+save:Save
+savemsg:Do you want to save
+savetitle:Save
+saveas:Save as...
+viewfile:View File...
+clear:Clear
+quit:Quit
+find:Find
+language:Language
+filemenu:File
+findmsg:What do you want to find?
+undo:Undo
+cut:Cut
+copy:Copy
+paste:Paste
+edit:Edit
+refresh:Refresh
+editmenu:Edit
+run:Run
+compliefile:Compliefile
+compliefile2:Complied the file
+complieerror:Couldn't complie
+pythonshellconsole:Python shell(console)
+pythonshellgui:Python shell(GUI)
+shell:shell
+runmenu:Run
+pythonhelp:Python Help
+ldehelp:lde Help
+about:About...
+license:LICENSE
+update:Update
+help:Helps
+more:More
+font:Font
+option:Option
+optionmenu:Option
+helpmenu:Help
+version:Version
+Version:3.1.9
+bind:Showbinds
+saveerror:Couldn't save

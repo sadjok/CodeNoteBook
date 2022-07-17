@@ -1,0 +1,53 @@
+这个项目是由一个六年级小学生着手弄的！
+Project made by a 6 grade student!
+
+3.2.2 {
+ 小更新
+ Small Update
+	修复了windnd打不开文件
+	Fixed windnd can not open file
+	修复了Ctrl快捷键的bug
+	Fixed Ctrl fast bind's bug
+
+ 漏洞
+ Bugs
+	拖动窗口会产生大量黑框
+	move the window will summon many black label ?
+	选中文本框时会移动窗口
+	selected the text tool will move the window
+
+ 下次更新
+ Next Update
+	更新界面
+	Update the windows
+	修复bug
+	Fix the bug
+ 
+ B站大佬帮助：
+ Help from bilibili NB people
+	能否帮我看看我的代码那个bug那块哪里有问题，谢谢
+	Can you help me to find out about the reason to make the bug appered thank you!
+}
+
+3.2.3 {
+ 小更新
+ Small Update
+	重写了界面
+	overwrited the GUIS
+	优化了界面
+	make the GUIS beautifully
+ 
+ | 取消了Ctypes的Bug |
+ Canceled the bug of ctypes
+
+}
+
+3.2.4 {
+ 小更新
+ Small Update
+	优化了界面
+	maked the GUIS beautifully
+	修复了一些已知的漏洞
+	fixed some knows bugs
+
+}

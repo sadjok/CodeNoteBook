@@ -1,0 +1,10 @@
+T = input()
+x = int(input())
+if T == 'Z':
+	for i in range(x):
+		print('.' * x)
+else:
+	for i in range(1, x + 1):
+		print(' ' * (x - i),end = '')
+		print('*' * x, end = '')
+		print('\n')
